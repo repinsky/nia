@@ -1,0 +1,70 @@
+.nw-start {
+	background-repeat: 	no-repeat;
+	background-position: center;
+	background-image: url(/images/landingFinalRightBg.png);
+	background-size: cover;
+	padding: 106px 0;
+	color: #fff;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.nw-start {
+		background-image: url(/images/landingFinalRightBg@2x.png);
+	}
+}
+
+.nw-start .h2 {
+	color: #fff;
+	margin-bottom: 18px;
+}
+
+.nw-start .block-award {
+	color: #A0B7CE
+}
+
+.nw-start__actions {
+	margin: 32px 0;
+	display: flex;
+	align-items: center;
+}
+
+.nw-start__actions .btn + .btn {
+	margin-left: 24px;
+}
+
+.nw-start__annotation {
+	font-size: 13px;
+	line-height: 20px;
+	color: #A0B7CE
+}
+
+.nw-start__annotation a {
+	color: #fff;
+}
+
+.nw-start__annotation-links {
+	margin-top: 12px;
+}
+
+@media only screen and (max-width: 767px) {
+	.nw-start {
+		padding: 60px 0;
+	}
+}
+
+@media only screen and (max-width: 570px) {
+
+	.nw-start__actions {
+		flex-wrap: wrap;
+	}
+
+	.nw-start__actions .btn {
+		width: 100%;
+	}
+
+	.nw-start__actions .btn + .btn {
+		margin-top: 18px;
+		margin-left: 0
+	}
+}

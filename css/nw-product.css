@@ -1,0 +1,219 @@
+.block-product {
+	padding: 90px 0
+}
+
+.product-overall {
+	display: flex;
+	align-items: flex-start;
+}
+
+.product__badge {
+	flex-shrink: 0;
+	margin-right: 30px;
+	width: 130px;
+	border-radius: 6px;
+	background-color: #d2d7de;
+	color: #8a929c;
+	font-size: 11px;
+	text-transform: uppercase;
+	line-height: 16px;
+	font-weight: 700;
+	text-align: center;
+	padding: 12px;
+}
+
+.product.checked .product__badge {
+	color: #fff;
+	background-color: #009d71;
+}
+
+.product__badge-rating {
+	font-size: 64px;
+	line-height: 72px;
+}
+
+.product__badge-star.stars {
+	margin: 6px auto 0;
+	width: 90px; 
+	height: 16px;
+	background-position: -0 -16px;
+}
+
+.product.checked .product__badge-star.stars {
+    background-position: -0 -32px;
+}
+
+.product__badge-author {
+	margin-top: 5px;
+}
+
+.product__badge-choice,
+.product__badge-author {
+	letter-spacing: 0.4px;
+}
+
+.product__body {
+	flex-grow: 1;
+}
+
+.product__body-title {
+	margin-bottom: 6px;
+}
+
+.product__body-annotation {
+	font-size: 24px;
+	line-height: 32px;
+}
+
+.product__body-download {
+	margin-top: 19px;
+	background-color: #d8dce2;
+	border-radius: 6px;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+.product__body-download .actions {
+	margin-right: 18px;
+}
+
+.product__body-download .actions-description {
+	color: #818386;
+	font-size: 13px;
+	line-height: 18px;
+}
+
+.product__body-compare {
+	border-top: 2px solid #d8dce2;
+	padding-top: 24px;
+	margin-top: 26px;
+	padding-bottom: 30px;
+	border-bottom: 2px solid #d8dce2;
+}
+
+.product__body-compare-list {
+	margin-top: 5px;
+}
+
+.product__body-compare-list ul {
+	list-style-type: none;
+}
+
+.product__body-compare-list li {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.product__body-compare-list li:before {
+	content: '•';
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 12px
+}
+
+.product__body-compare-list li + li {
+	margin-top: 10px;
+}
+
+.product__body-compare-title {
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: 700
+}
+
+.product__body-compare-title .sprite-icon {
+	width: 24px; 
+	height: 28px;
+	margin-right: 14px;
+}
+
+.sprite-icon.good-stuff {
+	background-position: -0 -112px;
+}
+
+.sprite-icon.bad-stuff {
+	background-position: -24px -112px;
+}
+
+.product-description {
+	margin-top: 42px;
+}
+
+.product-description-image {
+	margin: 40px 0;
+}
+
+.product-description-image img {
+	border-radius: 4px;
+	max-width: 100%;
+	height: auto;
+}
+
+
+.product .download-block-action {
+	margin-top: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+
+	.product .download-block {
+		margin-top: 70px;
+		padding: 26px 40px 36px;
+	}
+
+	.product .download-block .download-block-icon {
+		right: 96px;
+	    top: -40px;
+	}
+
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+	.product .download-block .download-block-icon {
+		right: 30px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+
+	.product__body-download {
+		flex-wrap: wrap;
+	}
+
+	.btn-main {
+		width: 100%
+	}
+
+	.download-block-title {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.product .download-block {
+		margin-top: 120px
+	}
+
+	.product__body-compare > .row > div:first-child {
+		margin-bottom: 30px;
+	}
+
+	.block-product {
+		padding: 60px 0;
+	}
+
+	.product-overall {
+		flex-wrap: wrap;
+	}
+
+	.product__badge {
+		width: 100%;
+		margin-right: 0
+	}
+
+	.product__body-annotation {
+		font-size: 20px;
+		line-height: 30px;
+	}
+}
