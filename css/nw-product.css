@@ -54,6 +54,7 @@
 
 .product__body {
 	flex-grow: 1;
+	overflow: hidden;
 }
 
 .product__body-title {
@@ -158,6 +159,10 @@
 
 @media only screen and (min-width: 768px) {
 
+	.mobile-string {
+		display: none
+	}
+
 	.product .download-block {
 		margin-top: 70px;
 		padding: 26px 40px 36px;
@@ -180,6 +185,52 @@
 
 	.product__body-download {
 		flex-wrap: wrap;
+		background-color: transparent;
+		padding: 0
+	}
+
+	.product__body-download .actions-description {
+		margin-top: 16px;
+	}
+
+	.product__body-download .actions {
+		margin-right: 0;
+		width: 100%;
+		flex-grow: 1;
+	}
+
+	.product__body-download .actions .btn {
+		width: 100%
+	}
+
+	.product__badge-choice {
+		display: none
+	}
+
+	.product__badge {
+		display: flex;
+		align-items: center;
+		margin-bottom: 24px;
+		padding: 6px 20px;
+	}
+
+	.product__badge__sub {
+		display: flex;
+		flex-direction: column-reverse;
+		margin-left: 16px;
+	}
+
+	.product__badge-author {
+		margin-top: 0
+	}
+
+	.product__badge-star.stars {
+		margin: 4px 0 0
+	}
+
+	.product__badge-rating {
+		font-size: 44px;
+		line-height: 52px;
 	}
 
 	.btn-main {

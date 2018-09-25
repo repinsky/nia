@@ -204,6 +204,15 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 
 @media only screen and (max-width: 767px) {
+
+	.nw-btools {
+		padding: 60px 0
+	}
+
+	.rating__icon {
+		display: none
+	}
+
 	.rating-list {
 		margin-left: 0
 	}

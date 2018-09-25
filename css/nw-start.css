@@ -50,6 +50,8 @@ only screen and (min-device-pixel-ratio: 2) {
 @media only screen and (max-width: 767px) {
 	.nw-start {
 		padding: 60px 0;
+		background-image: none;
+		background-color: #155188
 	}
 }
 
