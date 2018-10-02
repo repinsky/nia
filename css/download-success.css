@@ -1,0 +1,108 @@
+.background-blue {
+	background-color: #134b83;
+	color: #fff;
+}
+
+.background-blue h1 {
+	color: #fff;
+}
+
+.background-blue .page-announce {
+	color: #9AB0C8
+}
+
+.download-success {
+	padding-top: 26px;
+}
+
+.download-success h1 {
+	font-size: 30px;
+	line-height: 40px;
+}
+
+.download-success .page-announce {
+	margin-top: 12px;
+}
+
+.download-success-image {
+	margin-bottom: 12px;
+}
+
+.download-success-image img {
+	margin: 0 auto;
+}
+
+.product-specs {
+	margin-top: 36px;
+	border-top: 2px solid rgba(255, 255, 255, 0.12);
+	border-bottom: 2px solid rgba(255, 255, 255, 0.12);
+}
+
+.product-spec-icon {
+	display: block;
+	flex-shrink: 0;
+	height: 24px;
+	width: 24px;
+	margin-right: 12px;
+	background-image: url(../images/sprite_download@x1.png);
+	background-repeat: no-repeat;
+	background-position: -24px -44px;
+}
+
+.product-spec {
+	display: flex;
+	align-items: flex-start;
+	padding: 18px;
+	padding-bottom: 19px;
+}
+
+.product-spec-description {
+	font-size: 14px;
+	line-height: 22px;
+	padding-top: 2px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.product-spec-icon {
+		background-image: url(../images/sprite_download@x2.png);
+		background-size: 173px 68px;
+	}
+}
+
+.product-specs-version {
+	text-align: center;
+	color: #9AB0C8;
+	font-size: 13px;
+	line-height: 22px;
+	padding: 2px 0;
+	border-bottom: 2px solid rgba(255, 255, 255, 0.12);
+}
+
+.download-info {
+	font-size: 13px;
+	line-height: 22px;
+	color: #9AB0C8;
+	margin-top: 30px;
+}
+
+.download-info a {
+	color: #ffc95b
+}
+
+.download-main-image {
+	margin-top: 36px;
+	margin-bottom: -322px;
+}
+
+.download-main-image img {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media only screen and (min-width: 1200px) {
+	.col-md-custom {
+		width: 54%;
+		margin-left: 23%
+	}
+}

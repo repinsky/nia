@@ -1,0 +1,66 @@
+.download-offset-section {
+	padding-top: 394px;
+}
+
+.app-updates-title {
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 600;
+}
+
+.app-updates-announce {
+	color: #7c7e7f;
+	font-size: 16px;
+	line-height: 24px;
+	margin-top: 10px;
+}
+
+.app-update-date {
+	font-size: 14px;
+	line-height: 22px;
+	margin-bottom: 6px;
+}
+
+.app-updates-list {
+	margin-top: 36px;
+}
+
+.app-updates-list ul {
+	list-style-type: none
+}
+
+.app-updates-list ul li {
+	margin-bottom: 36px;
+}
+
+.app-update-title {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.app-update-announce {
+	color: rgba(53, 53, 53, 0.6);
+	font-size: 14px;
+	line-height: 22px;
+	margin-top: 12px;
+}
+
+@media only screen and (min-width: 1200px) {
+	.col-md-offset-custom {
+		margin-left: 13%;
+		width: 80%
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.app-updates-list > .row {
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+
+	.app-updates-list > .row > li {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+}
