@@ -1,0 +1,101 @@
+.platform {
+	margin-bottom: 50px;
+}
+
+.platform__card {
+	border-radius: 6px;
+	background-color: #f4f7fa;
+	box-shadow: 0 1px 5px 0 rgba(114, 129, 144, 0.21);
+	text-align: center;
+}
+
+.platform-image img {
+	margin: 0 auto
+}
+
+.platform__card-header {
+	padding: 21px 23px 0 23px;
+	background-color: #edf1f5;
+	border-radius: 6px 6px 0 0
+}
+
+.platform__card-body {
+	padding: 24px 23px;
+}
+
+.platform-title {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 24px;
+}
+
+.platform-short {
+	font-size: 14px;
+	line-height: 20px;
+	color: #7c7e7f;
+	margin-top: 3px;
+}
+
+.platform-image {
+	margin-top: 18px;
+}
+
+.platform-release {
+	margin-top: 24px;
+}
+
+.platform-benefit {
+	color: #7c7e7f;
+	margin-top: 54px;
+}
+
+.platform__cta,
+.platform-benefit,
+.platform-release {
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.platform__cta {
+	color: #7c7e7f;
+	margin-top: 24px;
+	text-align: center;
+}
+
+.platform__cta > a {
+	display: block;
+	color: #155188
+}
+
+.btn-appstore {
+	display: block;
+	margin: 0 auto;
+	height: 44px;
+	width: 173px;
+	background-image: url(../images/sprite_download@x1.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+	.btn-appstore {
+		background-image: url(../images/sprite_download@x2.png);
+		background-size: 173px 68px;
+	}
+}
+
+.btn-appstore:hover {
+	opacity: .8
+}
+
+.download-platforms {
+	margin-top: 54px;
+}
+
+@media only screen and (min-width: 992px) {
+	.download-platforms > div[class*="col"] {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+}

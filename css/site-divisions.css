@@ -1,0 +1,57 @@
+
+.site-division-image {
+	width: 50px;
+	height: 50px;
+	border-radius: 4px;
+	background-color: #d8dce2;
+	margin: 0 auto 16px;
+}
+
+.site-division-image img {
+	max-width: 100%
+}
+
+.site-division-title {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600
+}
+
+.site-division-announce {
+	color: #7c7e7f;
+	font-size: 14px;
+	line-height: 22px;
+	margin-top: 12px;
+}
+
+.site-division-link {
+	margin-top: 16px;
+}
+
+.site-division-link a {
+	line-height: 24px;
+	font-size: 16px;
+	display: inline-block;
+}
+
+.site-division {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+
+	.site-division {
+		padding-top: 24px;
+		padding-bottom: 18px;
+	}
+
+	.site-divisions {
+		display: flex;
+	}
+
+	.site-division + .site-division {
+		border-left: 2px solid #d2d7de
+	}
+
+}

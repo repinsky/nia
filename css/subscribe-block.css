@@ -1,0 +1,71 @@
+.subscribe-form {
+	margin-top: 40px;
+}
+
+.subscribe-form-title {
+	font-size: 24px;
+	line-height: 32px;
+	margin-bottom: 24px;
+}
+
+.subscribe-form-announce {
+	font-size: 16px;
+	line-height: 24px;
+	color: #7c7e7f;
+}
+
+.subscribe-form form {
+	margin-top: 36px;
+}
+
+.btn-2 {
+	padding: 7px 24px;
+	color: #fff;
+	border-radius: 3px;
+	background-image: linear-gradient(to bottom, #26ba90 4%, #1a9573);
+	border: solid 1px #197d61;
+}
+
+.subscribe-form .block-success {
+	margin-top: 24px;
+}
+
+.subscribe-form .form-group .form-control {
+	height: 44px;
+}
+
+.subscribe-form .form-group .form-control::placeholder {
+	color: #ADADAD
+}
+
+@media only screen and (min-width: 481px) {
+
+	.subscribe-form .form-group {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.subscribe-form .form-group .form-control {
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+		width: 100%;
+		max-width: 330px;
+	}
+
+	.subscribe-form .form-group .btn {
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+
+}
+
+@media only screen and (max-width: 480px) {
+	.subscribe-form .form-group .form-control::placeholder {
+		text-align: center;
+	}
+
+	.subscribe-form .form-group .btn {
+		margin-top: 12px;
+	}
+}
