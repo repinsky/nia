@@ -63,4 +63,8 @@
 		padding-right: 20px;
 	}
 
+	.app-updates-list > .row > li:nth-child(2n+3) {
+		clear: left;
+	}
+
 }

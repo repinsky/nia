@@ -39,6 +39,10 @@
 	margin-bottom: 50px;
 }
 
+.site-divisions {
+	margin-top: 40px
+}
+
 @media only screen and (min-width: 768px) {
 
 	.site-divisions.row {
