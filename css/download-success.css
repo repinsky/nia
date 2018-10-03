@@ -101,7 +101,7 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 
 @media only screen and (min-width: 1200px) {
-	.col-md-custom {
+	.col-lg-custom {
 		width: 54%;
 		margin-left: 23%
 	}
